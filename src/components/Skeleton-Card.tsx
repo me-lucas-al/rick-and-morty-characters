@@ -6,7 +6,7 @@ export function SkeletonCard() {
       {Array.from({ length: 9 }).map((_, i) => (
         <Skeleton
           key={i}
-          className="h-[300px] w-[300px] hover:shadow-xl transition-all duration-300 
+          className="h-[350px] w-[400px] hover:shadow-xl transition-all duration-300 
                  bg-gradient-to-br from-gray-900 to-gray-800 border-gray-700 
                  hover:border-gray-600"
         />
