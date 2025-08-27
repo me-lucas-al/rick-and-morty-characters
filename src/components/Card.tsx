@@ -30,7 +30,7 @@ export function CardDemo({ character }: { character: string | any }) {
   };
 
   return (
-    <Card className="w-[400px] hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-gray-900 to-gray-800 border-gray-700 hover:border-gray-600">
+    <Card className="w-full max-w-sm hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-gray-900 to-gray-800 border-gray-700 hover:border-gray-600">
       <CardHeader className="pb-4">
         <div className="flex items-center space-x-4 mb-4">
           <div className="relative">
