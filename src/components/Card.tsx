@@ -1,6 +1,6 @@
 import {
   Card,
-  CardDescription,
+  CardContent,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -57,7 +57,7 @@ export function CardDemo({ character }: { character: string | any }) {
           </div>
         </div>
 
-        <CardDescription className="space-y-3">
+        <CardContent className="space-y-3">
           <div className="grid grid-cols-2 gap-3 text-sm">
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
@@ -98,7 +98,7 @@ export function CardDemo({ character }: { character: string | any }) {
               <p className="text-gray-300 text-sm ml-6">{character.origin.name}</p>
             </div>
           </div>
-        </CardDescription>
+        </CardContent>
       </CardHeader>
     </Card>
   );
