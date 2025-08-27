@@ -85,7 +85,7 @@ src/
 ### **Instalação**
 ```bash
 # Clone o repositório
-git clone [seu-repositorio]
+git clone https://github.com/me-lucas-al/rick-and-morty-characters.git
 
 # Entre no diretório
 cd rick-morty-app
@@ -224,38 +224,3 @@ const getStatusColor = (status: string) => {
 ### **API Utilizada**
 - [Rick and Morty API](https://rickandmortyapi.com/documentation)
 
----
-
-## 🔄 **Possíveis Melhorias**
-
-- [ ] **Paginação** - Implementar lazy loading
-- [ ] **Filtros** - Busca por nome, status, espécie
-- [ ] **Detalhes** - Página individual do personagem
-- [ ] **Favoritos** - Sistema de personagens favoritos
-- [ ] **Dark/Light Mode** - Toggle de tema
-- [ ] **Skeleton Loading** - Placeholder durante carregamento
-- [ ] **Error Boundary** - Tratamento global de erros
-- [ ] **PWA** - Progressive Web App
-- [ ] **Tests** - Testes unitários e de integração
-
----
-
-## 👨‍💻 **Desenvolvedor**
-
-Projeto desenvolvido para fins de **estudo e aprimoramento** das tecnologias mencionadas.
-
----
-
-## 📄 **Licença**
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## 🤝 **Contribuições**
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
-
----
-
-**🚀 Happy Coding!**
