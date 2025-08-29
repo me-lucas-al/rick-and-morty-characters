@@ -1,5 +1,5 @@
 import useGetAllCharacters from "@/hooks/use-all-characters";
-import { CardDemo } from "./Card";
+import { CardDemo } from "../home/card";
 
 export default function CardList() {
   const { data: characters } = useGetAllCharacters();
