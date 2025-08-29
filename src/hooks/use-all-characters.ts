@@ -6,7 +6,7 @@ export default function useGetAllCharacters() {
   return useQuery({
     queryKey: ["characters"],
     queryFn: async () => {
-        const response = await api.get(`/character`);
+        const response = await api.get<{ results: ICharacter[] }>("/character");
         return response.data.results;
     },
   });
