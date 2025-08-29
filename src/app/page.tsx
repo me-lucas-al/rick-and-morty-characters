@@ -1,8 +1,8 @@
 "use client";
 
-import AlertCard from "@/components/AlertCard";
-import CardList from "@/components/Card-List";
-import { SkeletonCard } from "@/components/Skeleton-Card";
+import AlertCard from "@/components/home/alert-card";
+import CardList from "@/components/home/card-list";
+import { SkeletonCard } from "@/components/home/skeleton-card";
 import useGetAllCharacters from "@/hooks/use-all-characters";
 import React from "react";
 
