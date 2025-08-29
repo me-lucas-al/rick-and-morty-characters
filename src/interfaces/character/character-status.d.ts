@@ -1,0 +1,1 @@
+type ICharacterStatus = "alive" | "dead" | "unknown";

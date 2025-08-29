@@ -3,7 +3,7 @@ interface ICharacter {
   name: string;
   created: string;
   image: string;
-  status: string;
+  status: ICharacterStatus;
   species: string;
   type: string;
   character: number;
